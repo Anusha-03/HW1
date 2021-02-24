@@ -1,0 +1,70 @@
+h1{
+    font-size: 60px;
+font-style: italic;
+text-align: center;
+color: black;
+background-color: beige;
+}
+body{
+    background-color: powderblue;
+}
+nav ul{
+    list-style-type: none;
+      margin: "10px";
+      padding: 0px;
+      overflow: hidden;
+      background-color: black;
+      }
+  nav ul li {
+      float : right;
+      color: white; 
+    }
+
+     nav ul li a{
+         display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 36px;
+         text-decoration: none;
+         font-size: 20px;
+         }
+         nav li a:hover{
+             background-color: gold;
+         }
+         p{
+             font-size: 150%;
+             padding-right: 20px;
+             padding-left: 20px;
+             margin: auto;
+         }
+         h3{
+             font-size: 175%;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         }
+         h2{
+             font-size: 200%;
+         }
+         
+         footer ul{
+            float : right;
+            color: white;
+            background-color:black;
+            width: "100%";
+            }
+        footer ul li{
+            display: block;
+         color: white;
+         text-align: center;
+         padding: 14px 36px;
+         text-decoration: none;
+         font-size: 20px;
+         width: "100%";
+        }
+           footer ul li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 36px;
+            text-decoration: none;
+            font-size: 20px;
+             }

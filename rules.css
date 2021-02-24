@@ -1,0 +1,90 @@
+h1 {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    color: black;
+    background-color: beige;
+}
+body{
+    background-color: powderblue;
+}
+        h2 {
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p {
+    font-size: 150%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+h3 {
+    font-size: "175%";
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer ul{
+    float : right;
+    color: white;
+    background-color:black;
+    width: "100%";
+    }
+footer ul li{
+    display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 36px;
+ text-decoration: none;
+ font-size: 20px;
+ width: "100%";
+}
+   footer ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    font-size: 20px;
+    width: "100%";
+     }
+            
+        nav ul{
+          list-style-type: none;
+          margin: "10px";
+          padding: 0;
+          overflow: hidden;
+          background-color: black;
+          
+          }
+      nav ul li{
+          float: right; 
+          
+        }
+
+         nav ul li a{
+             display: block;
+             color: white;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+             
+             }
+             nav li a:hover{
+                 background-color: gold;
+             }
+     th{
+         font-size: 120%;
+         padding: 10px;
+     }
+     table{
+         padding: 0px;
+         background-color: yellow;
+     }   
+     td{
+         font-size: 100% ;
+     }          
+tr{
+    font-size: 100%;
+}

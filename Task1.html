@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+<!--default bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <!--provides a full width container that can be expanded or callapsed on the basis of the size of the viewerport-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                <nav id="navbar">
+                    <h3> Technical Documentation </h3>
+                    <!--content stacking for smaller screens-->
+                    <ul class="nav nav-pills nav-stacked">
+                        <!--internal linking to respective sections-->
+                        <a class="nav-link" href="#Introduction" rel="internal">
+                            <li>Introduction</li>
+                        </a>
+                    <a class="nav-link" href="What_you_should_already_know" rel="internal">
+                    <a class="nav-link" href="#About_Topic" rel="internal">
+                        <li>About the Topic</li>
+                    </a> 
+                    <a class="nav-link" href="#Topic_1" rel="internal">
+                        <li>Topic 1</li>
+                    </a>
+                    <a class="nav-link" href="#Topic_2" rel="internal">
+                        <li>Topic 2</li>
+                    </a>
+                </ul>
+            </nav>
+            </div>
+            <div class="col-md-10 col-sm-12 col-xs-12">
+                <main id="main-doc">
+                    <section class="main-section" id="Introduction">
+                        <!--alternative for css styling which can be done in another css file for better practice-->
+                        <h3 style="background:black; color: white; ">Introduction</h3>
+                        <article>
+                            <p> Soome content about the main topic</p>
+                                </article>
+                    </section>
+                    <section class="main-section" id="What_you_should_already_know">
+                        <h3 style="background: black; color: white;"> What you should already know
+                        </h3>
+                        <article> 
+                            <p> Background in formation before getting into the main topic</p
+                                <!-- creating list in html-->
+                                <li>Some list contents</li>
+                                <li>Prerequisites</li>
+                                <li>Workings and assumptions</li>
+                                <p>Any other content to be covered before learning this topic
+                                </p>
+                                  </article>
+                    </section>
+                    <section class="main-section" id="About_Topic">
+                        <h3 style="background: black; color: white;">About Topic 
+                        </h3>
+                     <article>
+                         <p>More lines about the topic. For example how basic functionalities work etc.
+                         </p>
+                         <p>Technical dcumentation should be thorough and to the point.                             
+                         </p>
+                         <p>Write about features
+                         </p>
+                         </article>
+                    </section>
+                    <section class="main-section" id="Topic_1">
+                        <h3 style="background: black; color: white;">Topic 1 </h3>
+                        <article>
+                            <p>Getting started with actual Documentation content.                                
+                            </p>
+                            <code>This could come in different colours according to the code itself.                                
+                            </code>
+                        </article>
+                    </section> 
+                    <section class="main-topic" id="Topic-2">
+                        <h3 style="background: black; color: white;">Topic 2</h3>
+                          <p>Another topic about the main topic                                
+                          </p>
+                    </section>
+                </main>
+            </div>
+        </div>
+            </div>
+</html>
